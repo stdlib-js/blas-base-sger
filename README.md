@@ -95,7 +95,7 @@ The function has the following parameters:
 -   **y**: an `N` element [`Float32Array`][mdn-float32array].
 -   **sy**: stride length for `y`.
 -   **A**: input matrix stored in linear memory as a [`Float32Array`][mdn-float32array].
--   **lda**: stride of the first dimension of `A` (leading dimension of `A`).
+-   **lda**: stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`).
 
 The stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to iterate over every other element in `x` and `y`,
 
@@ -421,7 +421,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -434,8 +434,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas-base-sger.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas-base-sger
 
-[test-image]: https://github.com/stdlib-js/blas-base-sger/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas-base-sger/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas-base-sger/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/blas-base-sger/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas-base-sger/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas-base-sger?branch=main
@@ -447,8 +447,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
