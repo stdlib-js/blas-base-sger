@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sger@esm/index.mjs';
+import sger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sger@v0.1.1-esm/index.mjs';
 ```
 
 #### sger( order, M, N, α, x, sx, y, sy, A, lda )
@@ -175,7 +175,7 @@ sger.ndarray( 2, 3, 1.0, x, 2, 1, y, 2, 1, A, 1, 2, 2 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import sger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sger@esm/index.mjs';
+import sger from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-base-sger@v0.1.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float32'
